@@ -1,0 +1,118 @@
+header {
+    background-image: url("../images/дом лендос 1.png");
+    background-repeat: no-repeat;    
+}
+
+.logo h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #E5E5E6;
+}
+
+.logo p {
+    font-size: 10px;
+    color: #909195;
+}
+
+.ratingflag p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: white;
+    font-weight: 100;
+}
+
+.ratingflag p b {
+    font-weight: 900;
+}
+
+.calc {
+    background-color: #84B73D;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 239px;
+    height: 47px;
+}
+
+.calc {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    vertical-align: baseline;
+}
+
+.calc img {
+    width: 15.55px;
+    height: 18px;
+    vertical-align: bottom;
+}
+
+.hContact {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #96989F;
+    text-decoration: underline;
+}
+
+.hContact img {
+    width: 11px;
+    height: 8px;
+}
+
+.hMenu {
+    list-style-type: none;
+}
+
+.hMenu li {
+    display: inline-block;
+    margin-left: 26px;
+    font-family: sans-serif;
+    font-size: 17px;
+    color: #FBFFFF;
+    padding: 6px 11px;
+}
+
+.hMenu li:hover {
+    border: 1px solid #E1A43B;
+    border-radius: 14.5px;
+}
+
+footer {
+    background-color: #373739;
+}
+
+.fMenu {
+    list-style-type: none;
+    text-align: center;
+}
+
+.fMenu li {
+    display: inline-block;
+    margin-left: 26px;
+    font-family: sans-serif;
+    font-size: 17px;
+    color: #FBFFFF;
+    padding: 6px 11px;
+}
+
+footer {
+    padding: 26px 11px;
+}
+
+footer .cRight {
+    color: white;
+    font-size: 15.21px;
+    display: block;
+    margin-left: 76px;
+    margin-bottom: 26px;
+    float: left;
+}
+
+footer .pdPolitic {
+    color: #E5B53E;
+    font-size: 15.21px;
+    display: block;        
+    margin-right: 76px;
+    margin-bottom: 26px;
+    float: right;    
+}
