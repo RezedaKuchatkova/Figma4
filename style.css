@@ -1,63 +1,198 @@
+@font-face {
+    font-family: 'Gilroy-Black';
+    src: local('Gilroy-Black'),
+        url(../fonts/Gilroy-Black.ttf);
+}
+
+@font-face {
+    font-family: 'Gilroy-BlackItalic';
+    src: local('Gilroy-BlackItalic'),
+        url(../fonts/Gilroy-BlackItalic.ttf);
+}
+
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: local('Gilroy-Bold'),
+        url(../fonts/Gilroy-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Gilroy-BoldItalic';
+    src: local('Gilroy-BoldItalic'),
+        url(../fonts/Gilroy-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: 'Gilroy-BoldItalic';
+    src: local('Gilroy-BoldItalic'),
+        url(../fonts/Gilroy-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: 'Gilroy-ExtraBold';
+    src: local('Gilroy-ExtraBold'),
+        url(../fonts/Gilroy-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: 'Gilroy-ExtraBoldItalic';
+    src: local('Gilroy-ExtraBoldItalic'),
+        url(../fonts/Gilroy-ExtraBoldItalic.ttf);
+}
+
+@font-face {
+    font-family: 'Gilroy-Heavy';
+    src: local('Gilroy-Heavy'),
+        url(../fonts/Gilroy-Heavy.ttf);
+}
+
+@font-face {
+    font-family: 'Gilroy-HeavyItalic';
+    src: local('Gilroy-HeavyItalic'),
+        url(../fonts/Gilroy-HeavyItalic.ttf);
+}
+
+@font-face {
+    font-family: 'Gilroy-Light';
+    src: local('Gilroy-Light'),
+        url(../fonts/Gilroy-Light.ttf);
+}
+
+@font-face {
+    font-family: 'Gilroy-LightItalic';
+    src: local('Gilroy-LightItalic'),
+        url(../fonts/Gilroy-LightItalic.ttf);
+}
+
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: local('Gilroy-Medium'),
+        url(../fonts/Gilroy-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Gilroy-MediumItalic';
+    src: local('Gilroy-MediumItalic'),
+        url(../fonts/Gilroy-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: 'Gilroy-Regular';
+    src: local('Gilroy-Regular'),
+        url(../fonts/Gilroy-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Gilroy-RegularItalic';
+    src: local('Gilroy-RegularItalic'),
+        url(../fonts/Gilroy-RegularItalic.ttf);
+}
+
+@font-face {
+    font-family: 'Gilroy-SemiBold';
+    src: local('Gilroy-SemiBold'),
+        url(../fonts/Gilroy-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'Gilroy-SemiBoldItalic';
+    src: local('Gilroy-SemiBoldItalic'),
+        url(../fonts/Gilroy-SemiBoldItalic.ttf);
+}
+
+@font-face {
+    font-family: 'Gilroy-Thin';
+    src: local('Gilroy-Thin'),
+        url(../fonts/Gilroy-Thin.ttf);
+}
+
+@font-face {
+    font-family: 'Gilroy-ThinItalic';
+    src: local('Gilroy-ThinItalic'),
+        url(../fonts/Gilroy-ThinItalic.ttf);
+}
+
+@font-face {
+    font-family: 'Gilroy-UltraLight';
+    src: local('Gilroy-UltraLight'),
+        url(../fonts/Gilroy-UltraLight.ttf);
+}
+
+@font-face {
+    font-family: 'Gilroy-UltraLightItalic';
+    src: local('Gilroy-UltraLightItalic'),
+        url(../fonts/Gilroy-UltraLightItalic.ttf);
+}
+
+
 header {
     background-image: url("../images/дом лендос 1.png");
-    background-repeat: no-repeat;    
+    background-repeat: no-repeat; 
+    background-size: contain;   
 }
 
 .logo h2 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Gilroy-Bold';
     font-size: 15px;
     color: #E5E5E6;
 }
 
 .logo p {
+    font-family:  'Gilroy-Regular';
     font-size: 10px;
     color: #909195;
 }
 
 .ratingflag p {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:  'Gilroy-Regular';
     font-size: 11px;
     color: white;
     font-weight: 100;
 }
 
-.ratingflag p b {
-    font-weight: 900;
-}
-
-.calc {
-    background-color: #84B73D;
-    border: 1px solid white;
-    border-radius: 10px;
-    width: 239px;
-    height: 47px;
-}
-
-.calc {
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
-    text-align: center;
-    vertical-align: baseline;
-}
-
-.calc img {
-    width: 15.55px;
-    height: 18px;
-    vertical-align: bottom;
-}
-
-.hContact {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
+.hContact p  {
+    font-family:  'Gilroy-SemiBold';
+    font-size: 11px;
     color: #96989F;
     text-decoration: underline;
 }
 
-.hContact img {
-    width: 11px;
-    height: 8px;
+.hContact>.calc {
+    background-color: #84B73D;
+    width: 237px;
+    height: 45px;
+    border-radius: 5px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 12px;
+    color: #ffffff;
+    text-decoration: none;    
 }
+
+.callus p {
+    font-family: 'Gilroy-SemiBold';
+    font-size: 10px;
+    color: #D2D3D6;
+}
+
+.time {
+    font-family: 'Gilroy-Regular';
+    font-size: 10px;
+    color: #D2D3D6;
+}
+
+.phone {
+    font-family: 'Gilroy-SemiBold';
+    font-size: 16px;
+    color: white;    
+}
+
+.Callback {
+    font-family: 'Gilroy-SemiBold';
+    font-size: 12px;
+    color: #87BF3C;
+}
+
 
 .hMenu {
     list-style-type: none;
@@ -115,4 +250,253 @@ footer .pdPolitic {
     margin-right: 76px;
     margin-bottom: 26px;
     float: right;    
+}
+
+
+h1 {
+    font-family:  'Gilroy-Regular';
+    font-size: 48px;
+    color: #ffffff;
+    font-weight: 200;
+}
+
+h1 span {
+    font-weight: 600;
+}
+
+.underheader1 {
+    font-family:  'Gilroy-Regular';
+    font-size: 20px;
+    font-weight: 200;
+    color: #ffffff;
+}
+
+.underheader1 span {
+    font-weight: 600;
+}
+
+.cprice {
+    background-color: #FEAA01;
+    width: 285px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Gilroy-Bold';
+    font-size: 16px;
+    color: #FBFFFF;
+}
+
+nav ul li {
+    display: inline-block;
+    font-family: 'Gilroy-Medium';
+    font-size: 16px;
+    color: white;
+    margin: 30px;
+    padding: 10px;
+}
+
+nav ul li:hover {
+    border: 1px solid #E1A43B;
+    border-radius: 20px;
+}
+
+.MenuBottom {
+    font-family: 'Gilroy-Regular';
+    font-size: 12px;
+    color: white;
+}
+
+.MenuBottom img {
+    display: block;
+}
+
+.mcalcprice {
+    background-color: white;
+    border: 1px solid black;
+    border-bottom-right-radius: 30px;
+}
+
+.mcalcprice h2 {
+    font-family: 'Gilroy-Regular';
+    font-size: 36px;
+    color: #2D2D2F;
+    font-weight: 300;
+}
+
+.mcalcprice h2 span {
+    font-weight: 600;
+}
+
+.mcalcprice article h3 {
+    font-family: 'Gilroy-SemiBold';
+    font-size: 25px;
+    color: #262425;
+}
+
+.mcalcprice article p {
+    font-family: 'Gilroy-Regular';
+    font-size: 11px;
+    color: #777779;
+}
+
+.btnnext {
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    color: #FDFDFA;
+    width: 139px;
+    height: 47px;
+    background-color: #FEAA01;
+    border: 1px solid white;
+    border-radius: 5px;
+    vertical-align: baseline;
+    text-align: center;
+}
+
+
+.projects h3{
+    font-family: 'Gilroy-Regular';
+    font-size: 47px;
+    color: #2D2D2F;
+    font-weight: normal;
+}
+
+.cards h5 {
+    font-family: 'Gilroy-Bold';
+    font-size: 29px;
+    color: gray;
+    font-weight: normal;
+}
+
+
+
+
+.ppmenu h5 {
+    display: inline-block;
+}
+
+.ppmenu h5 {
+    display: inline-block;
+    height: 20px;
+    margin-right: 5px;
+    padding: 5px 10px;
+    background-color: #efefef;
+    border-radius: 4px;    
+}
+
+.ppmenu h5 {
+    background-color: #73B918;
+}
+
+.ppmenu h5 {
+    font-family: 'Gilroy-Regular';
+    font-size: 13px;
+    color: #5c5f66;
+    text-decoration: none;
+}
+
+.ppmenu h5 {
+    color: #ffffff;
+}
+
+.ppmenu h5 {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+
+
+
+.six-steps h2 {
+    font-family: 'Gilroy-Light';
+    font-size: 47px;
+    color: #2D2D2F;
+}
+
+
+
+
+.ss__menu nav {
+    display: inline-block;
+    border-radius: 7px;
+    width: 160px;
+    height: 30px;
+    background-color: #efefef;
+    font-family: 'Gilroy-SemiBold';
+    font-size: 18px;
+    color: #333438;
+    text-align: center;
+    padding-top: 8px;
+    margin-right: 20px;
+}
+
+
+
+
+
+.buildedhouses h2 {
+    font-family: 'Gilroy-Light';
+    font-size: 47px;
+    color: #2D2D2F;
+}
+
+
+
+.suconstrsite h5 {
+    font-family: 'Gilroy-Light';
+    font-size: 36px;
+    color: #2D2D2F;
+}
+
+.suconstrsite h5 b {
+    font-family: 'Gilroy-Bold';
+}
+
+
+
+.projcat h5 {
+    font-family: 'Gilroy-Light';
+    font-size: 47px;
+    color: #2D2D2F;
+}
+
+.projcat h5 b {
+    font-family: 'Gilroy-Bold';
+}
+
+
+.comp-dir {
+    font-size: 0;
+}
+
+.comp-dir h5 {
+    font-family: 'Gilroy-Light';
+    font-size: 47px;
+    color: #2d2d2f;
+}
+
+.comp-dir h5 b {
+    font-family: 'Gilroy-Bold'
+}
+
+
+
+.estimate__info {
+    display: inline-block;
+    width: 715px;
+    height: 520px;
+    background-image: url(../img/chertegh.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-top-left-radius: 120px;
+}
+
+.estimate__info h5 {
+    font-family: 'Gilroy-Light';
+    font-size: 36px;
+    color: #2d2d2f;
+}
+
+.estimate__info h5 b {
+    font-family: 'Gilroy-Bold';
 }

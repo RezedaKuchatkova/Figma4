@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>House world landing page</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
    
 
     <header> 
+       
         <section class="logo">
             <img src="./images/Group 802.svg" alt="">
             <h2>НOUSE WORLD</h2>
@@ -33,14 +34,16 @@
                 </p>
                 <p><img src="./images/Union.svg" alt="">info@house.world</p>
             </section>
-            <section>
+            <section class="callus">
                 <p>Мы онлайн</p>
                 <img src="./images/socials.png" alt="">
             </section>
             <section>
-                <p>Без выходных с 10:00 до 20:00</p>
-                <p>+7 (800) 000-00-00</p>
-                <p>Заказать обратный звонок</p>
+                <section>
+                    <p class="time">Без выходных с 10:00 до 20:00</p>
+                    <p class="phone">+7 (800) 000-00-00</p>
+                    <p class="Callback">Заказать обратный звонок</p>
+                </section> 
             </section>        
             <nav>
                 <ul class="hMenu">
@@ -58,13 +61,15 @@
       
         <section>
             
-            <h1>Строительство деревянных домов под ключ в Курске</h1>
-            <p>Построим теплый и надежный дом с гарантией 10 лет</p>
-            <div>рассчитать стоимость</div>
+            <h1><span>Строительство деревянных домов</span> под ключ в Курске</h1>
+            <p class="underheader1">Построим теплый и надежный дом <span>с гарантией 10 лет</span></p>
+            <div class="cprice">рассчитать стоимость</div>
+            <div class="MenuBottom">
             <div><img src="./images/Union3.svg" alt="">40 собственных опытных бригад</div>
             <div><img src="./images/Union.svg" alt="">Свое производство строительных материалов</div>
             <div><img src="./images/Union (2).svg" alt="">Тысячи довольных клиентов с 1998 года</div>
             <div><img src="./images/Group 1.svg" alt="">Гарантия на все строительные работы по договору</div>
+        </div>
         </section>
         <img src="./images/Derevo-bez-fona.png" alt="">
         <img src="./images/Derevo-bez-fona (1).png" alt="">
@@ -76,39 +81,165 @@
             с гарантией 10 лет</p>
     <nav>Расчитать стоимость </nav>
 <main>
-    <h2>Рассчитайте предварительную
-        стоимость дома за 1 минуту</h2>
-        <img src="./images/Rectangle 7.png" alt="">
-        <img src="./images/Rectangle 8.png" alt="">
-        <img src="./images/мужик 1.png" alt="">
+    <section class="mcalcprice">
+        <h2><span>Рассчитайте предварительную стоимость</span> дома за 1 минуту</h2>            
+        <article>
+            <h3>01. Что будем строить?</h3>
+            <div class="house-01"><img src="./images/Rectangle 7.png" alt="дом">Дом
+        <img src="./images/Rectangle 8.png" alt="баня">Баня
+        <img src="./images/мужик 1.png" alt="Михаил Иванов">Михаил Иванов</div>
+        <!--   <article>
+                <img src="png" alt="leadArch"><br>
+                <img src="png" alt="flag02">
+                <div class="leadarch-2">Ведущий архитектор</div>
+                <div class="questions">Ответив на вопросы вы получите:</div>
+                <div class="discount"><img src="png" alt="unlock01"> Гарантированную <b>скидку</b> <b>1%</b></div>
+                <div class="price-1"><img src="png" alt="lock01"><b>Ориентировочную</b> стоимость строительства</div>
+                <div class="project-1"><img src="png" alt="lock01"><b>Точную подборку</b> проектов исходя изваших ответов</div>
+            </article>-->
+        
+        <p><b>Нажимайте на вариант ответа</b> и переходите к следующему вопросу</p>
+        <button class="btnnext">Далее >></button>
+    </article>
 </main>
-<section> <!--раздел--> <h3>Мы строим деревянные дома и бани с учетом
+
+<section class="projects"> <!--раздел--> <h3>Мы строим деревянные дома и бани с учетом
     всех особенностей Курска</h3>
-    <article><!--часть раздела--> <h5>дома</h5>  </article> 
-    <article><h5>Дома из бруса</h5></article>
-    <article><h5>Срубы под усадк</h5></article>
-    <article><h5>Бани из бруса</h5></article>
-    <article><h5>Каркасные бани</h5></article>
-    <article><h5>Перевозные бани</h5></article>
-    <article><h5>Срубы под усадку</h5></article>
-    <article><h5>Каркасные бани</h5></article>
+    <div>  
+        <article><!--часть раздела-->
+
+            <div class="cards"> <h5>Каркасные дома</h5>
+            <img src="images/каркасный дома.png" alt="Каркасные дома"> <br>
+            <p>100 + проектов</p>
+            <p>от 21800 руб/м</p>
+            </div>
+        </article> 
+    <article>
+        <div class="cards"> 
+        <h5>Дома из бруса</h5>
+        <img src="images/дома из бруса.png" alt="Дома из бруса"> <br>
+        <h3>Дома из бруса</h3>
+        <p>100 + проектов</p>
+        <p>от 19700 руб/м</p>
+    </div>
+    </article>
+    <article>
+        <div class="cards"> 
+        <h5>Срубы под усадку</h5>
+        <img src="images/срубы под усадку.png" alt="Срубы под усадку"> <br>
+        <h3>Срубы под усадку</h3>
+        <p>100 + проектов</p>
+        <p>от 19700 руб/м</p>
+    </div>
+    </article>
+</div>
+<div class="cards"> 
+    <article><h5>Бани из бруса</h5>
+        <img src="images/дома из бруса.png" alt=""> <br>
+        <p>100 + проектов</p>
+        <p>от 19700 руб/м</p>
+    </article>
+    <article><h5>Каркасные бани</h5>
+        <img src="images/каркасные бани.png" alt=""> <br>
+        <p>100 + проектов</p>
+        <p>от 20800 руб/м</p>
+    </article>
+    <article><h5>Перевозные бани</h5>
+        <img src="images/перевозные бани.png" alt=""> <br>
+        <p>100 + проектов</p>
+        <p>от 19700 руб/м</p>
+    </article>
+    <article><h5>Срубы под усадку</h5>
+        <img src="images/срубы под усадку.png" alt=""> <br></article>
+        <p>100 + проектов</p>
+        <p>от 19700 руб/м</p>
+   
+    </article>
+    <article><h5>Каркасные бани</h5>
+        <img src="images/каркасные бани.png" alt=""> <br></article>
+    </article>
+</div>
+<div class="ppmenu">
     <section>
         <h2>Посмотрите популярные проекты домов</h2>
     </section>
     <img src="./images/Rectangle 54.png" alt="">
-    <article><h5>"Атаман"</h5></article>
+    <article><h5>"Атаман"</h5>
+        <p>Площадь: <b>108 м</b></p>
+        <p>Размеры: <b>7х9</b></p>
+        <p>Срок стройки: <b>16 дней</b></p>
+        <p>Комнат: <b>5</b></p>
+        <p>Тип дома: <b>Каркасный</b></p>
+        <p>Стоимость: <b>от <span class="pp_price">1 780 000</span> руб</b></p>
+        <p class="pp__button"><a href="#">смотреть проекты</a></p>
+        <p class="pp__ip">Индивидуальная планировка дома</p>
+   
+    </article>
     <img src="./images/Rectangle 54.png" alt="">
-    <article><h5>"Атаман"</h5></article>
+    <article><h5>"Атаман"</h5>
+        <p>Площадь: <b>108 м</b></p>
+        <p>Размеры: <b>7х9</b></p>
+        <p>Срок стройки: <b>16 дней</b></p>
+        <p>Комнат: <b>5</b></p>
+        <p>Тип дома: <b>Каркасный</b></p>
+        <p>Стоимость: <b>от <span class="pp_price">1 780 000</span> руб</b></p>
+        <p class="pp__button"><a href="#">смотреть проекты</a></p>
+        <p class="pp__ip">Индивидуальная планировка дома</p>
+    
+    </article>
     <img src="./images/Rectangle 54.png" alt="">
-    <article><h5>"Атаман"</h5></article>
+    <article><h5>"Атаман"</h5>
+        <p>Площадь: <b>108 м</b></p>
+        <p>Размеры: <b>7х9</b></p>
+        <p>Срок стройки: <b>16 дней</b></p>
+        <p>Комнат: <b>5</b></p>
+        <p>Тип дома: <b>Каркасный</b></p>
+        <p>Стоимость: <b>от <span class="pp_price">1 780 000</span> руб</b></p>
+        <p class="pp__button"><a href="#">смотреть проекты</a></p>
+        <p class="pp__ip">Индивидуальная планировка дома</p>
+    
+    </article>
     <img src="./images/Rectangle 54.png" alt="">
-    <article><h5>"Атаман"</h5></article>
+    <article><h5>"Атаман"</h5>
+        <p>Площадь: <b>108 м</b></p>
+        <p>Размеры: <b>7х9</b></p>
+        <p>Срок стройки: <b>16 дней</b></p>
+        <p>Комнат: <b>5</b></p>
+        <p>Тип дома: <b>Каркасный</b></p>
+        <p>Стоимость: <b>от <span class="pp_price">1 780 000</span> руб</b></p>
+        <p class="pp__button"><a href="#">смотреть проекты</a></p>
+        <p class="pp__ip">Индивидуальная планировка дома</p>
+    
+    </article>
     <img src="./images/Rectangle 54.png" alt="">
-    <article><h5>"Атаман"</h5></article>
+    <article><h5>"Атаман"</h5>
+        <p>Площадь: <b>108 м</b></p>
+        <p>Размеры: <b>7х9</b></p>
+        <p>Срок стройки: <b>16 дней</b></p>
+        <p>Комнат: <b>5</b></p>
+        <p>Тип дома: <b>Каркасный</b></p>
+        <p>Стоимость: <b>от <span class="pp_price">1 780 000</span> руб</b></p>
+        <p class="pp__button"><a href="#">смотреть проекты</a></p>
+        <p class="pp__ip">Индивидуальная планировка дома</p>
+    
+    </article>
     <img src="./images/Rectangle 54.png" alt="">
-    <article><h5>"Атаман"</h5></article>  
+    <article><h5>"Атаман"</h5>
+        <p>Площадь: <b>108 м</b></p>
+        <p>Размеры: <b>7х9</b></p>
+        <p>Срок стройки: <b>16 дней</b></p>
+        <p>Комнат: <b>5</b></p>
+        <p>Тип дома: <b>Каркасный</b></p>
+        <p>Стоимость: <b>от <span class="pp_price">1 780 000</span> руб</b></p>
+        <p class="pp__button"><a href="#">смотреть проекты</a></p>
+        <p class="pp__ip">Индивидуальная планировка дома</p>
+    
+    </article>  
     <section>
+    </div class="six-steps">
         <h2>Ваш идеальный дом всего за 6 этапов</h2>
+        </div>
+        <div class="ss__menu">
     </section>
     <nav> Этап 1 </nav>
     <nav> Этап 2 </nav>
@@ -116,6 +247,7 @@
     <nav> Этап 4 </nav>
     <nav> Этап 5 </nav>
     <nav> Этап 6 </nav>
+</div>
     <img src="./images/Mask group.png" alt="">
 <h3>Согласование проекта
     котеджа</h3>
@@ -129,9 +261,10 @@
         дверь в подарок! </h2></section>
 <article><h5>Любая перепланировка в подарок!</h5></article>
     <article><h5>Металлическая дверь в подарок!</h5></article>
-<section>
+<section class="buildedhouses">
     <h2>Посмотрите дома, построенные нами
         за прошлый год</h2>
+    </section>
         <img src="./images/Rectangle 86.png" alt="">
         <p></p>
         <img src="./images/Rectangle 88.png" alt="">
@@ -139,10 +272,14 @@
         <img src="./images/Rectangle 92.png" alt="">
         <img src="./images/Rectangle 93.png" alt="">
         
-        
-        <article><h5>Запишитесь на бесплатную экскурсию по строящимся объектам</h5></article>
+        <section class="suconstrsite">
+        <article><h5>Запишитесь на <b>бесплатную экскурсию</b> по строящимся объектам</h5></article>
         <img src="./images/image 8.png" alt="">
-        <article><h5>Скачайте каталог проектов с ценами и планировками</h5></article>
+
+    </section>
+    <section class="projcat">
+        <article><h5><b>Скачайте каталог</b> проектов с ценами и планировками</h5></article>
+    </section>
         <img src="./images/Group 805.png" alt="">
         <article><h5>Куда отправить подборку?</h5>
         <input type="tel">
@@ -154,12 +291,17 @@
         <img src="./images/Group 48.png" alt="">
 
 <p><img src="./images/мужик2 1.png" alt=""></p>
-        
-<article><h5>Здравствуйте,  я Олег Соловьев, директор и основатель компании.</h5></article>
-    <article><h5>Мы готовы ответить на любой вопрос</h5> </article>
+  
+<section class="comp-dir">
+<article><h5><b>Здравствуйте,  я Олег Соловьев,</b> директор и основатель компании.</h5></article>
+</section>
+<article><h5>Мы готовы ответить на любой вопрос</h5> </article>
     <img src="./images/Group 57.png" alt="">
-<article><h5>Если у вас уже есть смета на строительство в 95% случаев мы предлагаем меньшую стоимость и без потери качества</h5></article>
+
+    <div class="estimate__info">
+<article><h5><b>Если у вас уже есть смета на строительство</b> в 95% случаев мы предлагаем меньшую стоимость и без потери качества</h5></article>
 <img src="./images/Derevo-bez-fona (1).png" alt="">
+</div>
 <h5> Куда отправить подборку?</h5>
 <input type="tel">
 <h5></h5>
